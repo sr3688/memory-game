@@ -1,0 +1,106 @@
+:root{
+    --booked-available: green;
+}
+*{
+    
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+body{
+    display: flex;
+    place-content: center;
+    
+}
+span{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+    width:120px;
+    height:80px;
+    margin:2px;
+    border-radius: 5px;
+    background-color: var(--booked-available);
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+
+}
+span:hover{
+    background-color:rgb(112, 16, 136);
+    border:2px solid white;
+    padding:22px;
+}
+
+section{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self:center;
+    background-color: rgb(240, 241, 241);
+    top:160px;
+    width:80%;
+    border-radius: 10px;
+}
+
+#container-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:2px;
+    padding-top:15px;
+    padding-bottom: 15px;
+} 
+
+.column-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right:10%;
+    justify-content: center;
+    align-self: flex-start;
+}
+   
+    
+
+.column-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left:10%;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+h3 {
+    display: inline;
+}
+
+p{
+    display: inline;
+}
+
+#seats-count > div{
+    
+    position:relative;
+    border:2px solid rgb(240, 239, 238);
+    top:100px;
+    padding:10px;
+    background-color: rgb(216, 230, 21);
+    border-radius: 5px;
+    margin-bottom:20px;
+
+}
+
+
