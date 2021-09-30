@@ -1,75 +1,90 @@
-// Selecting all the span elements in an array "spanArr" -> Input
-var spanArr=document.querySelectorAll("span")
-
-//assigning variable to booked and available seats
-var availableSeats=spanArr.length;
-var bookedSeats=0;
-var bookedStatusText="Available"
-
-//BookStatus Label
-
-    for(let i=0;i<spanArr.length;i++){
-    spanArr[i].innerHTML=bookedStatusText
-    spanArr[i].style.cursor="pointer"
-}
-
-// Seats Availability when no seats have been booked
-document.querySelector('#seats-booked').innerHTML=bookedSeats
-document.querySelector('#seats-booked').style.color="red"
-document.querySelector('#seats-available').innerHTML=availableSeats;
-document.querySelector('#seats-available').style.color="green"
 
 
-// processing when someone clicks on the seat to book
-function clickHandler(event){
+const card=document.querySelectorAll(".card-inner");
+const moves=document.querySelector('.moves-count')
 
-        if(event.target.style.backgroundColor=="red"){
-            event.target.style.backgroundColor="";
-            event.target.innerHTML="Available";
-            availableSeats++;
-            bookedSeats--;
-        }
-            
-            
-            else{
-            event.target.style.backgroundColor="red"
-            event.target.innerHTML="Booked";
-            bookedSeats++;
-            availableSeats--;
-            event.target.style.reset
-            
-        }
-            
-        document.querySelector('#seats-booked').innerHTML=bookedSeats
-        document.querySelector('#seats-booked').style.color="red"
-        document.querySelector('#seats-available').innerHTML=availableSeats;
-        document.querySelector('#seats-available').style.color="green"
-        }
+var flipCounter=0;
+var movesCounter=0;
 
 
-// adding addEventListner on all the span elements
-for(let item in spanArr){
-spanArr[item].addEventListener('click',clickHandler)
-}
+function flipBackAllAndVisibility(){
+            setTimeout(function(){
+              for(let index in card){
+                if(card[index].classList.contains('is-flipped') ){
+                   if(!card[index].classList.contains('matched-card-visibility') ){
+                       for(let index_1 in card){
+                           if(index_1!==index){
+                               if(card[index_1].classList.contains('is-flipped')){
+                                   if(card[index].title===card[index_1].title){
+                                           card[index_1].classList.add('matched-card-visibility')
+                                           card[index].classList.add('matched-card-visibility')
+                                           flipCounter=0
+                                           movesCounter=movesCounter+1;
+                                           moves.innerHTML=movesCounter;
+                                   }
+                                   else{
+                                     card[index].classList.toggle('is-flipped');
+                                     card[index_1].classList.toggle('is-flipped')
+                                     flipCounter=0
+                                     movesCounter=movesCounter+1;
+                                     moves.innerHTML=movesCounter;
+                                   }
+                               }
+                           }
+                       }
+                   }
+               }
+           } 
+       },1000)
+    }        
+                
+
+for(let item in card){
+    card[item].addEventListener("click",()=>{
+           
+      if(flipCounter<2){
+          if(card[item].classList.contains('is-flipped')){
+              card[item].classList.toggle('is-flipped');
+              flipCounter--;
+          }
+
+          else{
+              card[item].classList.toggle('is-flipped');
+              flipCounter++
+          }
+      }
+
+     else{
+         if(card[item].classList.contains('is-flipped')){
+              card[item].classList.toggle('is-flipped');
+              flipCounter--;
+         }
+     }
+
+//This is to make the matching cards disappear and counting moves
+
+    if(flipCounter===2){flipBackAllAndVisibility()}
+   
+    
+})}
+
+
+    
+    
+    
+    
 
 
 
 
+  
+          
 
 
+    
+    
 
-        
-        
-        
-            
-
-
-
-
-
-
-
-
-
+    
+       
 
 

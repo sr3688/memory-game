@@ -1,106 +1,118 @@
 :root{
-    --booked-available: green;
+  --primary:#FFCE00;
+  --secondary:#FE4880;
+  --light:#F3F3F3;
+  --dark :  #212121;
+
 }
+
 *{
-    
-    box-sizing: border-box;
-    margin:0px;
-    padding:0px;
+  margin:0;
+  padding:0;
 }
+
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+html:focus-within{
+  scroll-behavior: smooth;
+}
+
 body{
-    display: flex;
-    place-content: center;
-    
-}
-span{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    display:flex;
-    width:120px;
-    height:80px;
-    margin:2px;
-    border-radius: 5px;
-    background-color: var(--booked-available);
-    font-size: 8px;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    color: white;
-
-}
-span:hover{
-    background-color:rgb(112, 16, 136);
-    border:2px solid white;
-    padding:22px;
+  width:100%;
+  min-height:100vh;
 }
 
-section{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 3px;
-    justify-content: center;
-    align-items: center;
+.card{
+  margin: 20px 10px;
+  width:250px;
+  height:150px;
 }
 
-.container{
-    position:absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self:center;
-    background-color: rgb(240, 241, 241);
-    top:160px;
-    width:80%;
-    border-radius: 10px;
+.card-inner{
+  width:100%;
+  height:100%;
+  transition:transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position:relative;
 }
 
-#container-child{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin:2px;
-    padding-top:15px;
-    padding-bottom: 15px;
-} 
-
-.column-1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-right:10%;
-    justify-content: center;
-    align-self: flex-start;
-}
-   
-    
-
-.column-2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-left:10%;
-    justify-content: center;
-    align-self: flex-end;
+.card-inner.is-flipped{
+  transform:rotateY(180deg)
 }
 
-h3 {
-    display: inline;
-}
-
-p{
-    display: inline;
-}
-
-#seats-count > div{
-    
-    position:relative;
-    border:2px solid rgb(240, 239, 238);
-    top:100px;
-    padding:10px;
-    background-color: rgb(216, 230, 21);
-    border-radius: 5px;
-    margin-bottom:20px;
+.card-face{
+  position:absolute;
+  width:100%;
+  height:100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow:hidden;
+  border-radius: 16px;
+  box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2) ;
 
 }
 
+.card-face-back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform:rotateY(180deg)
+}
 
+.card-face-front{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width:100%;
+  height:100%;
+}
+
+
+.card-wrapper{
+  display:flex;
+  position: absolute;
+  top:150px;
+  left:10%;
+  background-color: whitesmoke;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* padding:60px 60px; */
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
+  padding-top:0px;
+  width:80%;
+  border-radius: 20px;
+  
+}
+
+.game-heading{
+  display:flex;
+  position:absolute;
+  left:10%;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  background-color: red;
+  width:80%;
+  border-radius: 20px;
+  padding-top: 15px
+}
+.game-heading .anime-lover{
+  padding-top:2px
+}
+.game-heading .moves{
+position:relative;
+left:300px;
+padding-bottom:15px;
+}
+
+.matched-card-visibility{
+  visibility: hidden;
+}
