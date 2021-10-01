@@ -48,8 +48,11 @@ export function createContributorsCard(contributorInfo, container) {
   githubFollowLink.href = contributorInfo.github;
   githubFollowLink.appendChild(githubFollowButton);
   socialHandles.appendChild(githubFollowLink);
+  
+  if(contributorInfo.role!=="Maintainer"){
+   let thankContributor = document.createElement("h1");
+   thankContributor.innerHTML = `Thanks <span style="color:blue">${contributorInfo.name}</span> ! for your contribution 🥳`;
+   section.appendChild(thankContributor);
+  }
 
-  let thankContributor = document.createElement("h1");
-  thankContributor.innerHTML = `Thanks <span style="color:blue">${contributorInfo.name}</span> ! for your contribution 🥳`;
-  section.appendChild(thankContributor);
 }
