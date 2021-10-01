@@ -5,11 +5,17 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+            integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" href="style.css">
       <title>Memory Game</title>
 </head>
 
 <body>
+      <div data-toggle="tooltip" title="Switch theme" id="theme-set">
+            <i class="fas fa-moon fa-lg fa-fw themeIcon"></i>
+      </div>
       <div class="game-heading">
             <div>
                   <a href="./contributers-honourboard/contributors.html" style="color: #FFF;">Contributors</a>
@@ -22,7 +28,7 @@
                   <h2 style="font-size: 20px;font-weight: 500;">Moves: <span class="moves-count"></span></h2>
             </div>
       </div>
-   
+
       <div class="card-wrapper" id="card-container">
             <!-- <div class="card">
                   <div class="card-inner" _title="beerus">
