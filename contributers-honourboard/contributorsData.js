@@ -17,4 +17,13 @@ export let contributorsData = [
     github: "https://github.com/surya-doc",
     linkedin: "https://www.linkedin.com/in/surya-dana-4787271b1/",
   },
+  {
+    name: "Monesh Goyal",
+    gender: "male",
+    role: "Contributor",
+    img: "",
+    twitter: "https://twitter.com/GoyalMonesh",
+    github: "https://github.com/2201monesh",
+    linkedin: "https://www.linkedin.com/in/monesh-goyal-2b1325200/",
+  },
 ];
