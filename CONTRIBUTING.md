@@ -8,7 +8,7 @@ Hacktoberfest 2021 is here. It encourages participation in the open source commu
 - Make the changes.
 - Commit the changes with poper message. You can also add a desprictive message about the feature/functioality (recommended).
 - Add your name to the `contribution.md ` file.
-- Add you info in the format mentioned below to get you name on 
+- Add you info at ```memory-game/contributers-honourboard/contributorsData.js  ``` in the format mentioned below to get you name on 
   [Contribution Honour Page](https://game-memory-game.netlify.app/contributers-honourboard/contributors.html)
 ```{
     name: "Your Name Goes Here",
