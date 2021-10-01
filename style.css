@@ -8,6 +8,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 *,
@@ -93,24 +94,22 @@ img {
 
 .game-heading {
   display: flex;
-  position: absolute;
-  left: 10%;
-  flex-direction: column;
-  justify-content: center;
+  /* position: absolute; */
+  /* left: 10%; */
+  /* flex-direction: column; */
+  justify-content: space-between;
   text-align: center;
-  margin-top: 15px;
-  background-color: red;
+  margin: 15px auto;
+  background-color: #647b71;
   width: 80%;
+  color: #FFF;
   border-radius: 20px;
-  padding-top: 15px;
+  padding: 15px 28px;
+  align-items: center;
+  box-shadow: 1px 8px 14px 1px rgba(0, 0, 0, 0.2);
 }
 .game-heading .anime-lover {
   padding-top: 2px;
-}
-.game-heading .moves {
-  position: relative;
-  left: 300px;
-  padding-bottom: 15px;
 }
 
 .matched-card-visibility {
