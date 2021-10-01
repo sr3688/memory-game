@@ -17,4 +17,13 @@ export let contributorsData = [
     github: "https://github.com/surya-doc",
     linkedin: "https://www.linkedin.com/in/surya-dana-4787271b1/",
   },
+  {
+    name: "Thanasan Kumdee",
+    gender: "male",
+    role: "Contributor",
+    img: "https://avatars.githubusercontent.com/u/28824919?v=4",
+    twitter: "https://twitter.com/thnsn_kmd",
+    github: "https://github.com/itzmeowww",
+    linkedin: "https://www.linkedin.com/in/thanasan-kumdee",
+  },
 ];
