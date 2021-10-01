@@ -2,10 +2,39 @@ const cardContainer = document.getElementById('card-container')
 const gameHeading = document.querySelector('.game-heading')
 const moves = document.querySelector('.moves-count')
 const themeIcon = document.querySelector('.themeIcon')
+const modal = document.getElementById('modal-container')
+const cards = Array.from(document.getElementsByClassName('card-face'))
+const restartButton = document.getElementById('restart-button')
 
-let isLightTheme = true
+let isLightTheme = document.cookie.length > 0 ? document.cookie : true
 
 const themeToggleButton = document.getElementById('theme-set')
+
+function applyTheme () {
+  if (document.cookie == 'true') {
+    document.body.style.backgroundColor = lightThemeColors.backgroundColor
+    cardContainer.style.backgroundColor = lightThemeColors.cardWrapperColor
+    themeToggleButton.style.backgroundColor = '#444444'
+    themeIcon.classList.replace('fa-sun', 'fa-moon')
+    gameHeading.style.backgroundColor = lightThemeColors.headerWrapperColor
+    cards.forEach(card => {
+      card.style.boxShadow = '0px 3px 18px 3px rgba(0,0,0,0.2)'
+    })
+  } else {
+    document.body.style.backgroundColor = darkThemeColors.backgroundColor
+    cardContainer.style.backgroundColor = darkThemeColors.cardWrapperColor
+    themeToggleButton.style.backgroundColor = '#f5f5f5'
+    gameHeading.style.backgroundColor = darkThemeColors.headerWrapperColor
+    themeIcon.classList.replace('fa-moon', 'fa-sun')
+    cards.forEach(card => {
+      card.style.boxShadow = '0px 3px 18px 3px rgba(255,255,255,0.15)'
+    })
+  }
+}
+
+document.addEventListener('DOMContentLoaded', e => {
+  applyTheme()
+})
 
 const darkThemeColors = {
   backgroundColor: '#222222',
@@ -71,11 +100,11 @@ function initializeGame () {
 
     let cardInner = document.createElement('div')
     cardInner.className = 'card-inner'
-
     cardInner.setAttribute('_title', currentCharacter.name)
 
     let cardFront = document.createElement('div')
     cardFront.className = 'card-face card-face-front'
+    cardFront.style.backgroundColor = 'white'
     let cardFrontImg = document.createElement('img')
     cardFrontImg.src = frontImg
     cardFront.appendChild(cardFrontImg)
@@ -93,27 +122,14 @@ function initializeGame () {
   }
 
   themeToggleButton.addEventListener('click', e => {
-    const cards = Array.from(document.getElementsByClassName('card-face'))
-    isLightTheme = !isLightTheme
-    if (isLightTheme) {
-      document.body.style.backgroundColor = lightThemeColors.backgroundColor
-      cardContainer.style.backgroundColor = lightThemeColors.cardWrapperColor
-      themeToggleButton.style.backgroundColor = '#444444'
-      themeIcon.classList.replace('fa-sun', 'fa-moon')
-      gameHeading.style.backgroundColor = lightThemeColors.headerWrapperColor
-      cards.forEach(card => {
-        card.style.boxShadow = '0px 3px 18px 3px rgba(0,0,0,0.2)'
-      })
-    } else {
-      document.body.style.backgroundColor = darkThemeColors.backgroundColor
-      cardContainer.style.backgroundColor = darkThemeColors.cardWrapperColor
-      themeToggleButton.style.backgroundColor = '#f5f5f5'
-      gameHeading.style.backgroundColor = darkThemeColors.headerWrapperColor
-      themeIcon.classList.replace('fa-moon', 'fa-sun')
-      cards.forEach(card => {
-        card.style.boxShadow = '0px 3px 18px 3px rgba(255,255,255,0.15)'
-      })
-    }
+    isLightTheme = isLightTheme === 'true' ? 'false' : 'true'
+    document.cookie = isLightTheme
+    applyTheme()
+  })
+
+  restartButton.addEventListener('click', e => {
+    // modal.style.display = 'none'
+    window.location.reload()
   })
 }
 
@@ -137,7 +153,7 @@ function flipBackAllAndVisibility () {
                   remainingCards -= 2
                   if (remainingCards == 0) {
                     console.log('end')
-                    // Show result page
+                    modal.style.display = 'flex'
                   }
                 } else {
                   card[index].classList.toggle('is-flipped')
