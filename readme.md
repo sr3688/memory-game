@@ -8,6 +8,7 @@
 This repo intends to make a fun memory game and provides the nubies with the opportunities to get their hands dirty.You can add anything you like in order to make it better. Also, to know about the making opensource contribution.
 
 ##### Live Project: [Click to play](https://game-memory-game.netlify.app)
+##### Contribution Honour Page: [Click Visit](https://game-memory-game.netlify.app/contributers-honourboard/contributors.html)
 
 
 ### How can to contribute?
