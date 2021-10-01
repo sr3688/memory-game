@@ -5,7 +5,12 @@ export function createContributorsCard(contributorInfo, container) {
 
   let img = document.createElement("img");
   img.className = "profile-pic";
-  img.src = contributorInfo.img;
+  if(contributorInfo.img!==""){
+    img.src = contributorInfo.img;
+  }
+  else{
+  img.src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_960_720.png"
+  }
   section.appendChild(img);
 
   let h1 = document.createElement("h1");
