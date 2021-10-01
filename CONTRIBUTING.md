@@ -8,6 +8,18 @@ Hacktoberfest 2021 is here. It encourages participation in the open source commu
 - Make the changes.
 - Commit the changes with poper message. You can also add a desprictive message about the feature/functioality (recommended).
 - Add your name to the `contribution.md ` file.
+- Add you info in the format mentioned below to get you name on 
+  [Contribution Honour Page](https://game-memory-game.netlify.app/contributers-honourboard/contributors.html)
+```{
+    name: "Your Name Goes Here",
+    gender: "Enter your gender",
+    role: "what are you? a maintainer/contributor",
+    img: "put your github profile pic link",
+    twitter: "self explanatory, you know what to put here,right?",
+    github: "self explanatory, you know what to put here,right?",
+    linkedin: "self explanatory, you know what to put here,right?",
+  },
+  ```
 - Wait for the PR to be approved.
 - That's it.
 - If you wish, You can continue contributing to the project.
