@@ -18,12 +18,21 @@ export let contributorsData = [
     linkedin: "https://www.linkedin.com/in/surya-dana-4787271b1/",
   },
   {
-    name: "Monesh Goyal",
+    name: "Thanasan Kumdee",
+    gender: "male",
+    role: "Contributor",
+    img: "https://avatars.githubusercontent.com/u/28824919?v=4",
+    twitter: "https://twitter.com/thnsn_kmd",
+    github: "https://github.com/itzmeowww",
+    linkedin: "https://www.linkedin.com/in/thanasan-kumdee",
+  },
+  {
+   name: "Monesh Goyal",
     gender: "male",
     role: "Contributor",
     img: "",
     twitter: "https://twitter.com/GoyalMonesh",
     github: "https://github.com/2201monesh",
     linkedin: "https://www.linkedin.com/in/monesh-goyal-2b1325200/",
-  },
+  }
 ];

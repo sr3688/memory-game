@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Merriweather:wght@400;700&display=swap");
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Balsmaiq";
   background-color: whitesmoke;
 }
 

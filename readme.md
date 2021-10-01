@@ -14,14 +14,14 @@ Read : [For Hacktoberfest 2021 Participants](CONTRIBUTING.md)
 ##### Game Referance Link: [Click to Visit](https://www.helpfulgames.com/subjects/brain-training/memory.html)
 
 
-### How can to contribute?
+### How can you contribute?
 
-- Fork/clone/create a btanch of the repo.
+- Fork/clone/create a branch of the repo.
 - Make the changes.
-- Commit the changes with poper message. You can also add a desprictive message about the feature/functioality (recommended).
+- Commit the changes with poper message. You can also add a descriptive message about the feature/functionality (recommended).
 - Create a pull request.
-- Changes made to the code will be reviwed and merged if found in favour of the project.
-- Add you info in the format mentioned below to get you name on 
+- Changes made to the code will be reviewed and merged if found in favour of the project.
+- Add you info in the format mentioned below to get your name on 
   [Contribution Honour Page](https://game-memory-game.netlify.app/contributers-honourboard/contributors.html)
 ```{
     name: "Your Name Goes Here",
