@@ -4,12 +4,13 @@ Hacktoberfest 2021 is here. It encourages participation in the open source commu
 
 ### How can you contribute to this project?
 
-- Fork/clone/create a btanch of the repo.
+- Fork/clone/create a branch of the repo.
 - Make the changes.
-- Commit the changes with poper message. You can also add a desprictive message about the feature/functioality (recommended).
+- Commit the changes with proper message. You can also add a descriptive message about the feature/functionality (recommended).
 - Add your name to the `contribution.md ` file.
-- Add you info at ```memory-game/contributers-honourboard/contributorsData.js  ``` in the format mentioned below to get you name on 
+- Add you info at `memory-game/contributers-honourboard/contributorsData.js ` in the format mentioned below to get you name on
   [Contribution Honour Page](https://game-memory-game.netlify.app/contributers-honourboard/contributors.html)
+
 ```{
     name: "Your Name Goes Here",
     gender: "Enter your gender",
@@ -19,11 +20,12 @@ Hacktoberfest 2021 is here. It encourages participation in the open source commu
     github: "self explanatory, you know what to put here,right?",
     linkedin: "self explanatory, you know what to put here,right?",
   },
-  ```
+```
+
 - Wait for the PR to be approved.
 - That's it.
 - If you wish, You can continue contributing to the project.
-- Atleast hacktoberfest made you do the contribution to the opensource community. This is a feeling which not everyone gets.
+- At least hacktoberfest made you do the contribution to the opensource community. This is a feeling which not everyone gets.
 
 > A repository/project is considered to be participating in Hacktoberfest if the 'hacktoberfest' topic is present and is accepting public contributions via pull requests. An individual pull request can also be opted-in directly by adding the 'hacktoberfest-accepted' label.
 
