@@ -8,4 +8,13 @@ export let contributorsData = [
     github: "https://github.com/sr3688/",
     linkedin: "https://www.linkedin.com/in/sr3688/",
   },
+  {
+    name: "Surya Dana",
+    gender: "male",
+    role: "Contributor",
+    img: "https://avatars.githubusercontent.com/u/69008196?s=88&u=bb00f3f72ca816505973cbec5b84f876bdb09dd5&v=4",
+    twitter: "https://twitter.com/SuryaDa20408831",
+    github: "https://github.com/surya-doc",
+    linkedin: "https://www.linkedin.com/in/surya-dana-4787271b1/",
+  },
 ];
