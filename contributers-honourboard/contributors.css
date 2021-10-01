@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Merriweather:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Balsmaiq";
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.container > h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.contri-section {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 60%;
+  border-radius: 15px;
+  margin: 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 750px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contri-section > h1 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.contri-section > small {
+  display: inline-block;
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contri-section > h3 {
+  font-size: 15px;
+  margin: 15px;
+}
+
+.social-links {
+  margin-bottom: 30px;
+}
+.social-links > a {
+  margin-bottom: 10px;
+  padding: 35px;
+}

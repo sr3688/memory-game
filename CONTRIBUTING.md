@@ -4,7 +4,7 @@ Hacktoberfest 2021 is here. It encourages participation in the open source commu
 
 ### How can you contribute to this project?
 
-- Fork/clone the repo.
+- Fork/clone/create a btanch of the repo.
 - Make the changes.
 - Commit the changes with poper message. You can also add a desprictive message about the feature/functioality (recommended).
 - Add your name to the `contribution.md ` file.

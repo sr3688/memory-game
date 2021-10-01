@@ -1,6 +1,5 @@
 # Memory Game
 
-<<<<<<< HEAD
 ### Hello Everyone 👋
 
 ![memory-game-ss](./img/memory-game-ss.png)
@@ -8,19 +7,10 @@
 This repo intends to make a fun memory game and provides the nubies with the opportunities to get their hands dirty.You can add anything you like in order to make it better. Also, to know about the making opensource contribution.
 
 ##### Live Project: [Click to play](https://game-memory-game.netlify.app)
-=======
-
-### Hello Everyone 👋
-
-![memory-game-ss](./media/memory-game-ss.png)
-
-
-This repo intends to make a fun memory game and provides the nubies with the opportunities to get their hands dirty.You can add anything you like in order to make it better. Also, to know about the making opensource contribution.
->>>>>>> 77a0b2e001e2d4bdf4ca4828ef2f2f8220a3199e
 
 ### How can to contribute?
 
-- Fork/clone the repo.
+- Fork/clone/create a btanch of the repo.
 - Make the changes.
 - Commit the changes with poper message. You can also add a desprictive message about the feature/functioality (recommended).
 - Create a pull request.
