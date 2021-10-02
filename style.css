@@ -102,7 +102,7 @@ img {
   margin: 15px auto;
   background-color: #647b71;
   width: 80%;
-  color: #FFF;
+  color: #fff;
   border-radius: 20px;
   padding: 15px 28px;
   align-items: center;
@@ -120,4 +120,62 @@ a {
   text-decoration: none;
   font-size: 20px;
   padding: 10px;
+}
+
+#theme-set {
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+  margin: 1em;
+  border-radius: 50%;
+  left: 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #444;
+  box-shadow: 0px 0px 2px #222;
+}
+
+.fa-moon {
+  color: #f5f5f5;
+}
+
+.fa-sun {
+  color: #444;
+}
+
+#modal-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  max-height: 200px;
+  max-width: 500px;
+  z-index: 3;
+  width: 100%;
+  box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  border-radius: 15px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#restart-button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 1em;
+  cursor: pointer;
+  border-radius: 50px;
 }
