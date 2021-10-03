@@ -46,5 +46,15 @@ export let contributorsData = [
     twitter: 'https://twitter.com/ayangupta_9',
     github: 'https://github.com/ayangupta9',
     linkedin: 'https://www.linkedin.com/in/ayan-gupta-4b2158213/'
+  },
+  {
+    name: 'Pritam Kumar',
+    gender: 'male',
+    role: 'Contributor',
+    img:
+      'https://avatars.githubusercontent.com/u/84632214?v=4',
+    twitter: 'https://twitter.com/Pritamkr_',
+    github: 'https://github.com/pritam-kr',
+    linkedin: 'https://www.linkedin.com/in/pritam-kumar-0ab3431bb/'
   }
 ]
