@@ -113,6 +113,7 @@ function initializeGame () {
     cardBack.className = 'card-face card-face-back'
     let cardBackImg = document.createElement('img')
     cardBackImg.src = currentCharacter.img
+    cardBackImg.alt = `Picture of ${currentCharacter.name}`
     cardBack.appendChild(cardBackImg)
 
     cardInner.appendChild(cardFront)
