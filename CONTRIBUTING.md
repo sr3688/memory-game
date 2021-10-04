@@ -7,18 +7,19 @@ Hacktoberfest 2021 is here. It encourages participation in the open source commu
 - Fork/clone/create a branch of the repo.
 - Make the changes.
 - Commit the changes with proper message. You can also add a descriptive message about the feature/functionality (recommended).
-- Add your name to the `contribution.md ` file.
+- Add your name to the `contribution.md` file.
 - Add you info at `memory-game/contributers-honourboard/contributorsData.js ` in the format mentioned below to get you name on
   [Contribution Honour Page](https://game-memory-game.netlify.app/contributers-honourboard/contributors.html)
 
-```{
+```
+  {
     name: "Your Name Goes Here",
     gender: "Enter your gender",
-    role: "what are you? a maintainer/contributor",
-    img: "put your github profile pic link",
-    twitter: "self explanatory, you know what to put here,right?",
-    github: "self explanatory, you know what to put here,right?",
-    linkedin: "self explanatory, you know what to put here,right?",
+    role: "What are you? a maintainer/contributor",
+    img: "Put your github profile pic link",
+    twitter: "Self explanatory, you know what to put here,right?",
+    github: "Self explanatory, you know what to put here,right?",
+    linkedin: "Self explanatory, you know what to put here,right?",
   },
 ```
 

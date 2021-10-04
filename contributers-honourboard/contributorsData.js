@@ -56,5 +56,14 @@ export let contributorsData = [
     twitter: 'https://twitter.com/Pritamkr_',
     github: 'https://github.com/pritam-kr',
     linkedin: 'https://www.linkedin.com/in/pritam-kumar-0ab3431bb/'
-  }
+  },
+  {
+    name: 'Kavya Jain',
+    gender: 'Female',
+    role: 'Contributor',
+    img: 'https://avatars.githubusercontent.com/u/89743157?v=4',
+    twitter: '',
+    github: 'https://github.com/ikavyajain',
+    linkedin: 'https://www.linkedin.com/in/kavya-jain-0365b11b4/'
+  },
 ]
