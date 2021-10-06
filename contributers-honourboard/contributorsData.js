@@ -66,4 +66,13 @@ export let contributorsData = [
     github: 'https://github.com/ikavyajain',
     linkedin: 'https://www.linkedin.com/in/kavya-jain-0365b11b4/'
   },
+  {
+    name: "Magnus Thiemer",
+    gender: "Male",
+    role: "Contributor",
+    img: "https://avatars.githubusercontent.com/u/77662562?v=4",
+    twitter: "",
+    github: "https://github.com/MagnusThiemer",
+    linkedin: "https://www.linkedin.com/in/magnus-thiemer-jensen-2a433597/",
+  },
 ]
