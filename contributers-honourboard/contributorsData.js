@@ -63,6 +63,7 @@ export let contributorsData = [
     linkedin: "https://www.linkedin.com/in/kavya-jain-0365b11b4/",
   },
 
+
   {
     name: "Gaurav Pandey",
     gender: "Male",
@@ -72,4 +73,15 @@ export let contributorsData = [
     github: "https://github.com/gaurav-Pandey09",
     linkedin: "https://www.linkedin.com/in/gaurav-pandey-75607b172",
   },
-];
+
+  {
+    name: "Magnus Thiemer",
+    gender: "Male",
+    role: "Contributor",
+    img: "https://avatars.githubusercontent.com/u/77662562?v=4",
+    twitter: "",
+    github: "https://github.com/MagnusThiemer",
+    linkedin: "https://www.linkedin.com/in/magnus-thiemer-jensen-2a433597/",
+  },
+]
+
