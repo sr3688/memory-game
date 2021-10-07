@@ -7,10 +7,11 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: #90CAF9;
 }
 
 .container {
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +31,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #00aeff0e;
   width: 60%;
   border-radius: 15px;
   margin: 15px;
@@ -49,6 +50,7 @@ body {
 }
 
 .contri-section > h1 {
+  text-align: center;
   margin-left: 20px;
   margin-bottom: 5px;
   font-size: 25px;
