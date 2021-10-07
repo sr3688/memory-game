@@ -66,7 +66,7 @@ export let contributorsData = [
 
   {
     name: "Gaurav Pandey",
-    gender: "Male",
+    gender: "male",
     role: "Contributor",
     img: "https://avatars.githubusercontent.com/u/51617083?s=400&u=3baf58ff4c82686f343018c33e38edc8fee290f1&v=4",
     twitter: "",
