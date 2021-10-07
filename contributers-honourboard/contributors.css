@@ -7,11 +7,10 @@
 }
 
 body {
-  background-color: #90CAF9;
+  background-color: #90caf9;
 }
 
 .container {
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,6 +22,7 @@ body {
 .container > h1 {
   font-size: 40px;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .contri-section {
@@ -74,4 +74,18 @@ body {
 .social-links > a {
   margin-bottom: 10px;
   padding: 35px;
+}
+@media only screen and (max-width: 975px) {
+  .social-links > a {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .social-links > a {
+    display: block;
+  }
+  .social-links {
+    text-align: center;
+  }
 }
