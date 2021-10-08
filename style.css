@@ -198,3 +198,29 @@ a {
   cursor: pointer;
   border-radius: 50px;
 }
+
+@media only screen and (max-width: 620px) {
+  .game-heading {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .heading-center {
+    order: 1;
+  }
+
+  .contributers {
+    order: 2;
+    margin: 10px;
+  }
+
+  .moves {
+    order: 3;
+  }
+
+  .card-wrapper {
+    padding: 20px;
+    margin-top: 60px;
+  }
+}
