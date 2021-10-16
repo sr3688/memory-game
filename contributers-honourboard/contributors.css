@@ -6,11 +6,13 @@
   padding: 0;
 }
 
-body {
+body 
+{
   background-color: #90caf9;
 }
 
-.container {
+.container 
+{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,13 +21,15 @@ body {
   padding: 50px;
 }
 
-.container > h1 {
+.container > h1 
+{
   font-size: 40px;
   padding-bottom: 20px;
   text-align: center;
 }
 
-.contri-section {
+.contri-section 
+{
   display: flex;
   position: relative;
   flex-direction: column;
@@ -40,7 +44,8 @@ body {
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 }
 
-.profile-pic {
+.profile-pic 
+{
   width: 150px;
   height: 150px;
   border-radius: 750px;
@@ -49,43 +54,53 @@ body {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
-.contri-section > h1 {
+.contri-section > h1 
+{
   text-align: center;
   margin-left: 20px;
   margin-bottom: 5px;
   font-size: 25px;
 }
 
-.contri-section > small {
+.contri-section > small 
+{
   display: inline-block;
   margin-bottom: 25px;
   font-size: 15px;
   font-weight: bold;
 }
 
-.contri-section > h3 {
+.contri-section > h3 
+{
   font-size: 15px;
   margin: 15px;
 }
 
-.social-links {
+.social-links 
+{
   margin-bottom: 30px;
 }
-.social-links > a {
+.social-links > a 
+{
   margin-bottom: 10px;
   padding: 35px;
 }
-@media only screen and (max-width: 975px) {
-  .social-links > a {
+@media only screen and (max-width: 975px) 
+{
+  .social-links > a 
+  {
     padding: 10px;
   }
 }
 
-@media only screen and (max-width: 720px) {
-  .social-links > a {
+@media only screen and (max-width: 720px) 
+{
+  .social-links > a 
+  {
     display: block;
   }
-  .social-links {
+  .social-links 
+  {
     text-align: center;
   }
 }
