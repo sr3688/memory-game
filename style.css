@@ -109,8 +109,26 @@ img {
   align-items: center;
   box-shadow: 1px 8px 14px 1px rgba(0, 0, 0, 0.2);
 }
+
+.game-heading > div > a {
+  text-decoration: underline #94a3b8;
+}
+
+.game-heading > div > a:hover,
+.game-heading > div > a:active {
+  text-decoration: none;
+}
 .game-heading .anime-lover {
   padding-top: 2px;
+}
+
+.heading-center h2 {
+  text-decoration: underline #94a3b8;
+}
+
+.heading-center h2:hover,
+.heading-center h2:active {
+  text-decoration: none;
 }
 
 .matched-card-visibility {
@@ -179,4 +197,30 @@ a {
   padding: 1em;
   cursor: pointer;
   border-radius: 50px;
+}
+
+@media only screen and (max-width: 620px) {
+  .game-heading {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .heading-center {
+    order: 1;
+  }
+
+  .contributers {
+    order: 2;
+    margin: 10px;
+  }
+
+  .moves {
+    order: 3;
+  }
+
+  .card-wrapper {
+    padding: 20px;
+    margin-top: 60px;
+  }
 }
