@@ -83,5 +83,14 @@ export let contributorsData = [
     github: "https://github.com/MagnusThiemer",
     linkedin: "https://www.linkedin.com/in/magnus-thiemer-jensen-2a433597/",
   },
+  {
+    name: "Priyal Vyas",
+    gender: "Female",
+    role: "Contributor",
+    img: "https://avatars.githubusercontent.com/u/65209828?v=4",
+    twitter: "",
+    github: "https://github.com/vyaspriyal",
+    linkedin: "linkedin.com/in/priyal-vyas-745890186",
+  },
 ]
 
