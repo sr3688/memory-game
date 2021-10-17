@@ -224,3 +224,15 @@ a {
     margin-top: 60px;
   }
 }
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 9px;
+  display: none;
+  border-radius: 50%;
+  background-color: #f93154;
+  color:#fff;
+  padding: 0;
+  width: 2.8125rem;
+    height: 2.8125rem;
+}
