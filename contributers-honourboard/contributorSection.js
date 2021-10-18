@@ -1,4 +1,5 @@
-export function createContributorsCard(contributorInfo, container) {
+export function createContributorsCard(contributorInfo, container)
+{
   let section = document.createElement("section");
   section.className = "contri-section";
   container.appendChild(section);
