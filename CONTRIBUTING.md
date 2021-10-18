@@ -5,10 +5,12 @@ Hacktoberfest 2021 is here. It encourages participation in the open source commu
 ### How can you contribute to this project?
 
 - Fork/clone/create a branch of the repo.
+- Star the repo as well before maiking the changes.
 - Make the changes.
 - Commit the changes with proper message. You can also add a descriptive message about the feature/functionality (recommended).
 - Add your name to the `contribution.md` file.
 - Add you info at `memory-game/contributers-honourboard/contributorsData.js ` in the format mentioned below to get you name on
+- Keep patience for the project maintainer to review and merge the PR
   [Contribution Honour Page](https://game-memory-game.netlify.app/contributers-honourboard/contributors.html)
 
 ```

@@ -5,10 +5,12 @@ export function createContributorsCard(contributorInfo, container) {
 
   let img = document.createElement("img");
   img.className = "profile-pic";
-  if(contributorInfo.img!==""){
+  if (contributorInfo.img!=="") 
+  {
     img.src = contributorInfo.img;
   }
-  else{
+  else
+  {
   img.src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_960_720.png"
   }
   section.appendChild(img);
@@ -54,7 +56,7 @@ export function createContributorsCard(contributorInfo, container) {
   githubFollowLink.appendChild(githubFollowButton);
   socialHandles.appendChild(githubFollowLink);
   
-  if(contributorInfo.role!=="Maintainer"){
+  if (contributorInfo.role!=="Maintainer"){
    let thankContributor = document.createElement("h1");
    thankContributor.innerHTML = `Thanks <span style="color:blue">${contributorInfo.name}</span> ! for your contribution 🥳`;
    section.appendChild(thankContributor);
