@@ -1,4 +1,5 @@
 export let contributorsData = [
+  
   {
     name: "Suraj Rai",
     gender: "male",
@@ -7,6 +8,15 @@ export let contributorsData = [
     twitter: "https://twitter.com/surajrai_z",
     github: "https://github.com/sr3688/",
     linkedin: "https://www.linkedin.com/in/sr3688/",
+  },
+  {
+    name: "Rishu Pal",
+    gender: "male",
+    role: "Contributor",
+    img: "https://avatars.githubusercontent.com/u/90915107?s=400&v=4",
+    twitter: "https://twitter.com/rishupal10",
+    github: "https://github.com/rishupal10",
+    linkedin: "",
   },
   {
     name: "Surya Dana",
