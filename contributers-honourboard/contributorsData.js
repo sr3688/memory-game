@@ -16,7 +16,7 @@ export let contributorsData = [
     img: "https://avatars.githubusercontent.com/u/90915107?s=400&v=4",
     twitter: "https://twitter.com/rishupal10",
     github: "https://github.com/rishupal10",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/rishupal10",
   },
   {
     name: "Surya Dana",
