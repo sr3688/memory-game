@@ -23,14 +23,15 @@ Read : [For Hacktoberfest 2021 Participants](CONTRIBUTING.md)
 - Changes made to the code will be reviewed and merged if found in favour of the project.
 - Add you info in the format mentioned below to get your name on 
   [Contribution Honour Page](https://game-memory-game.netlify.app/contributers-honourboard/contributors.html)
-```{
-    name: "Your Name Goes Here",
-    gender: "Enter your gender",
-    role: "what are you? a maintainer/contributor",
-    img: "put your github profile pic link",
-    twitter: "self explanatory, you know what to put here,right?",
-    github: "self explanatory, you know what to put here,right?",
-    linkedin: "self explanatory, you know what to put here,right?",
-  },
+```
+{
+  name: "Your Name Goes Here",
+  gender: "Enter your gender",
+  role: "what are you? a maintainer/contributor",
+  img: "put your github profile pic link",
+  twitter: "self explanatory, you know what to put here,right?",
+  github: "self explanatory, you know what to put here,right?",
+  linkedin: "self explanatory, you know what to put here,right?",
+}
   ```
 
